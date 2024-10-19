@@ -40,8 +40,11 @@ function updateDateClock() {
 updateDateClock();
 setInterval(updateDateClock, 1000);
 
-let count = 100;
-$('.message').on('input', function () {
-  count--;
-  console.log(count);
-});
+const maxMessage = 100;
+function checkLengthMessage() {
+  currentLengthTextArea = $('.message').val().length;
+  remainingChars = maxMessage - currentLengthTextArea;
+  $('.count-char').text(`${remainingChars}`);
+}
+
+$('.message').on('input', checkLengthMessage);
