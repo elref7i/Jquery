@@ -18,12 +18,12 @@ $('.sidebar-link').on('click', function () {
   let Topsection = $(currentHref).offset().top;
   $('html , body').animate({ scrollTop: Topsection }, 5000);
   console.log($(this));
+  console.log(Topsection);
 });
 
 function updateDateClock() {
   const eventDay = new Date('2024-10-25T00:00:00');
   const now = new Date();
-  console.log(eventDay.getDate() - now.getDate());
   const day = eventDay.getDate() - now.getDate();
   const hours = now.getHours();
   const minutes = now.getMinutes();

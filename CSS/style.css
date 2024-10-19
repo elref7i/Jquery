@@ -37,15 +37,14 @@ h1 {
   color: #fff;
 }
 .fa-xmark,
-.icon-open {
+.icon-open,
+.singer h2,
+.social-medai li {
   cursor: pointer;
 }
 .side-bar li:hover a,
 .side-bar .fa-xmark:hover {
   color: var(--color-prime);
-}
-.singer h2 {
-  cursor: pointer;
 }
 .singer-paragraph {
   display: none;
