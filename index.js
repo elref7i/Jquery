@@ -40,7 +40,8 @@ function updateDateClock() {
 updateDateClock();
 setInterval(updateDateClock, 1000);
 
-const count = 100;
+let count = 100;
 $('.message').on('input', function () {
   count--;
+  console.log(count);
 });

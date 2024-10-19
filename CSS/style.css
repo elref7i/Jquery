@@ -11,7 +11,7 @@ header {
       rgba(255, 0, 0, 0.467),
       rgba(244, 0, 0, 0.467)
     ),
-    url('/images/events-heavenly-header.jpg');
+    url('images/events-heavenly-header.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -55,7 +55,7 @@ h1 {
       rgba(255, 0, 0, 0.467),
       rgba(244, 0, 0, 0.467)
     ),
-    url('/images/invitation-2508607__340.jpg');
+    url('images/invitation-2508607__340.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
