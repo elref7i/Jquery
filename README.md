@@ -9,4 +9,4 @@ This project was created for training purposes using **jQuery**. The goal is to 
 - jQuery
 - ## Demo
 
-You can check out the live demo of the project [here]([https://example.com/demo](https://elref7i.github.io/Jquery/)).
+You can check out the live demo of the project [here](https://elref7i.github.io/Jquery/).
